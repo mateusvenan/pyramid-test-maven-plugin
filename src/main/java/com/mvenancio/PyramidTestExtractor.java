@@ -49,7 +49,7 @@ public class PyramidTestExtractor extends AbstractMojo {
         for (PyramidScenario scenario : pyramidScenarios) {
             report.append(scenario.getCsvLine());
         }
-        FileUtils.writeStringToFile(new File("pyramid-report"+location.getName()+".txt"), report.toString(), "UTF-8");
+        FileUtils.writeStringToFile(new File("pyramid-report.csv"), report.toString(), "UTF-8");
     }
 
 
