@@ -1,13 +1,14 @@
 # Pyramid test maven plugin
 
 Javadoc example
+``` markdown
 /**
  * PYRAMID-TEST
  * FEATURE: Feature example
  * SCENARIO: Some scenario described for feature that complements
  * TYPE: UNIT|COMPONENT|END-TO-END
  */
-
+```
 Adding the dependency
 ``` markdown
 <plugin>
