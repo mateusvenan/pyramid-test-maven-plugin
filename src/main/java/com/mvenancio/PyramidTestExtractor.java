@@ -17,10 +17,10 @@ import java.util.Optional;
 @Mojo(name = "run", defaultPhase = LifecyclePhase.NONE)
 public class PyramidTestExtractor extends AbstractMojo {
 
-    private static final String PYRAMID_TEST = "PYRAMID-TEST";
-    private static final String FEATURE = "FEATURE:";
-    private static final String SCENARIO = "SCENARIO:";
-    private static final String TYPE = "TYPE:";
+    private static final String PYRAMID_TEST = "@pyramid-test";
+    private static final String FEATURE = "@feature ";
+    private static final String SCENARIO = "@scenario ";
+    private static final String TYPE = "@type ";
     private static final List<String> AVAILABLE_TYPES = Arrays.asList("UNIT", "COMPONENT", "END-TO-END");
     private final File location;
 
